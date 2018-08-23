@@ -1,5 +1,9 @@
 # Aula-4-Desempenho
 
+Classificação de dependências de dado:
+# Uma dependência de dado é chamada de *loop carried* se as duas expressões envolvidas na dependência ocorrem em diferentes iterações do laço.
+
+
 ## Afinidade / AFFINITY ##
 A afinidade de threads (Thread affinity ) restringe a execução de determinadas threads (unidades de execução virtual) a um subconjunto das unidades de processamento físico em um computador com multiprocessador. Dependendo da topologia da máquina, a afinidade de threads pode ter um efeito dramático na velocidade de execução de um programa.
 Isso minimiza a migração de threads e o custo da troca de contexto entre os núcleos (cores). Ela também melhora a localidade dos dados e reduz o tráfego de coerência de cache entre os núcleos (ou processadores).
