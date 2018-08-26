@@ -32,3 +32,11 @@ https://software.intel.com/en-us/vtune-amplifier-help-cpu-metrics-reference
 https://software.intel.com/en-us/vtune-amplifier-help-general-exploration-analysis
 https://software.intel.com/en-us/node/522691
 https://software.intel.com/en-us/articles/improve-performance-with-vectorization
+
+https://software.intel.com/en-us/product-code-samples
+
+Análise de Roofline: 
+https://software.intel.com/en-us/videos/fast-insights-to-optimized-vectorization-and-memory-using-cache-aware-roofline-analysis
+Intel Advisor. Escolha Roofline with Callstacks e a opção de FLOPS no menu à esquerda.
+
+
