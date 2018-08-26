@@ -16,10 +16,9 @@ http://gnuplot.info/
 
 
 
-Classificação de dependências de dado:
-# Uma dependência de dado é chamada de *loop carried* se as duas expressões envolvidas na dependência ocorrem em diferentes iterações do laço.
+Classificação de dependências de dado: Uma dependência de dado é chamada de *loop carried* se as duas expressões envolvidas na dependência ocorrem em diferentes iterações do laço.
 
-## (Profiling](./profiling)
+###### [Profiling](./profiling)
 
 ---
 
