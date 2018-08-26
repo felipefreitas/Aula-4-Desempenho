@@ -12,13 +12,19 @@ https://gcc.gnu.org/onlinedocs/libgomp/GOMP_005fCPU_005fAFFINITY.html#GOMP_005fC
 > Exercício. Execute o programa na semana anterior com um número de steps 1000 vezes superior. Abra o terminal e execute o comando top configurado para ver as threads. Modifique o parâmetro de afinidade do programa e veja como se comporta.
 
 ## GnuPlot
-http://gnuplot.info/
+[GnuPlot](http://gnuplot.info/): uma ferramenta open-source e free para criar gráficos 2D e 3D. 
+
+Links úteis:
+- Manual: http://gnuplot.info/docs_5.0/gnuplot.pdf
+Demos: 
+- average: http://gnuplot.sourceforge.net/demo_5.0/running_avg.html
+- errorbars: http://gnuplot.sourceforge.net/demo_5.0/fit.html
 
 
 
 Classificação de dependências de dado: Uma dependência de dado é chamada de *loop carried* se as duas expressões envolvidas na dependência ocorrem em diferentes iterações do laço.
 
-###### [Profiling](./profiling)
+## [Profiling](./profiling)
 
 ---
 
