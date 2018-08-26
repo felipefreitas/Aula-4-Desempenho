@@ -25,3 +25,10 @@ https://stackoverflow.com/questions/6328673/which-is-the-most-reliable-profiling
 https://www.thegeekstuff.com/2012/08/gprof-tutorial/
 http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/
 https://perf.wiki.kernel.org/index.php/Tutorial#Benchmarking_with_perf_bench
+
+Identificação de regiões que consumem mais CPU (hotspots)
+
+https://software.intel.com/en-us/vtune-amplifier-help-cpu-metrics-reference
+https://software.intel.com/en-us/vtune-amplifier-help-general-exploration-analysis
+https://software.intel.com/en-us/node/522691
+https://software.intel.com/en-us/articles/improve-performance-with-vectorization
