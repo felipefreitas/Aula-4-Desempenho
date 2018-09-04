@@ -50,25 +50,30 @@ void printMatrix(int** matrix, int l, int c)
 // Implementação ikj
 int** multMatrix(int** A, int** B, int al, int ac, int bl, int bc)
 {
-    int r;
+    int r, i, k, j;
     int **C;
     C = generateMatrix(al, bc, 0);
-    
+
+    printf("Numero maximo de threads: %i \n",omp_get_max_threads());
+
     double st=omp_get_wtime();
 
-        #pragma omp parallel
-        for(int i = 0; i < al; i++)
+    #pragma omp parallel shared(A,B,C) private(i,j,k)
+    {
+        #pragma omp for schedule(static)
+        for(i = 0; i < al; i++)
         {
-            for(int k = 0; k < ac; k++)
+            for(k = 0; k < ac; k++)
             {
                 r = A[i][k];
-                for(int j = 0; j < bc; j++)
+                for(j = 0; j < bc; j++)
                 {
                     C[i][j] += r*B[k][j];
                 }
             }
         }
-    
+    }
+
     double en=omp_get_wtime();
     printf("Tempo Multiplicacao: %lf\n",en-st);
 
